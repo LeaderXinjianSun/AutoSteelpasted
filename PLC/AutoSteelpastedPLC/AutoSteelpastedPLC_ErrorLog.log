@@ -1,0 +1,2 @@
+Class,Identifiers,Address,Type,Initial Value,Comment,ErrorMessage
+VAR,CANOPEN错误标志,M5000,WORD,,,装置输入错误!
