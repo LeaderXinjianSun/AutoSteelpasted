@@ -1,2 +1,3 @@
 Class,Identifiers,Address,Type,Initial Value,Comment,ErrorMessage
-VAR,CANOPEN错误标志,M5000,WORD,,,装置输入错误!
+VAR,压合RDY,,BOOL,,,符号名称重复定义
+VAR,压合Finish,,BOOL,,,符号名称重复定义
