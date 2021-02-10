@@ -1,0 +1,84 @@
+> jump simo;pass simop1;pass simoP2
+> motor On
+!!错误: 4025, 紧急停止条件下无法执行运动命令。
+> speed 30
+> jump simop3
+> jump simop3;go simo;pass simoP2;pass simop1
+> 
+> jump simop3;go simo;pass simoP1;pass simop2
+> jump simoP2
+> Go sixiamo3;Go sixiamo1 :Z(-10)
+> Go sixiamo3;Go sixiamo1 :Z(-10)
+> jump ximo1
+!!错误: 4031, 电机处于关闭状态时无法执行运动命令。
+> motor On
+> jump ximo1
+> jump paizhao
+> speed 30
+> jump tiemo -X(Delta_X) -Y(Delta_Y) +U(Delta_U) :z(-20)
+!!错误: 4031, 电机处于关闭状态时无法执行运动命令。
+> motor On
+> jump tiemo -X(Delta_X) -Y(Delta_Y) +U(Delta_U) :z(-20)
+> go tiemo -X(Delta_X) -Y(Delta_Y) +U(Delta_U)
+> go tiemo -X(Delta_X) -Y(Delta_Y) +U(Delta_U)
+> slock 1,2,3,4
+> speed 30
+> jump ximo1
+> jump paizhao
+> jump tiemo -X(Delta_X) -Y(Delta_Y) +U(Delta_U)
+> go here :z(-10)
+> jump ximo1
+> speed 50;jump paizhao
+> go here :z(-10)
+> go paizhao
+> jump tiemo -X(Delta_X) -Y(Delta_Y) +U(Delta_U)
+> go here :z(-10)
+> jump sixiamo3
+> motor On
+> speed 50
+> jump sixiamo3
+> jump ximo1
+> go here :z(-10)
+> jump sixiamo2
+> go sixiamo1
+> go here +z(10);Go Here +Z(10) -X(20);go sixiamo3
+> jump simop5
+> jump ximo2
+> jump ximo2
+> jump ximo2
+> motor On
+> power High
+> speed 50
+> jump sixiaomo2
+!!错误: 2513, 指定的点标签未定义。
+> jump sixiamo2
+> go sixiamo1
+> go here +z(5)
+> move here +z(20) -x(20)
+> move here -z(20) +x(20)
+> move here +z(10) -x(20)
+> jump sixiamo1
+> slock 1,2,3,4
+> jump sixiamo1
+> go here +z(5)
+> move here +z(10) -x(20)
+> move sixiamo5
+> go sixiamo3
+> jump sixiamo2
+> go sixiamo1
+> go here +z(5)
+> move here +z(10) -x(20)
+> move sixiamo5
+> go sixiamo3
+> JUMP paizhao
+> JUMP ximo1
+> jump paizhao
+> ENCRESET 1,2,3,4
+> calpls 0,0,0,0
+> calib 1
+> calib 2
+> calib 3
+> calib 3,4
+> 
+> 
+

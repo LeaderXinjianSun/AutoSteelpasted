@@ -1,0 +1,164 @@
+ENVT0100,LM:2017/09/14 00:59:36:219,DS:0000002316,CS:03941,MA:68-05-CA-44-57-23,EI:           
+sRCVersion="7.3.2"
+InputBitLabels {
+	nNumberOfLabels=1
+	Label1 {
+		nBit=0
+		sLabel="VoccumValue"
+		sDescription=""
+	}
+}
+InputByteLabels {
+	nNumberOfLabels=0
+}
+InputWordLabels {
+	nNumberOfLabels=0
+}
+OutputBitLabels {
+	nNumberOfLabels=6
+	Label1 {
+		nBit=0
+		sLabel="Suck"
+		sDescription=""
+	}
+	Label2 {
+		nBit=1
+		sLabel="Blow"
+		sDescription=""
+	}
+	Label3 {
+		nBit=2
+		sLabel="ShangJiaZhua"
+		sDescription=""
+	}
+	Label4 {
+		nBit=3
+		sLabel="XiaJiaZhua"
+		sDescription=""
+	}
+	Label5 {
+		nBit=4
+		sLabel="DingZhen"
+		sDescription=""
+	}
+	Label6 {
+		nBit=15
+		sLabel="Light"
+		sDescription=""
+	}
+}
+OutputByteLabels {
+	nNumberOfLabels=0
+}
+OutputWordLabels {
+	nNumberOfLabels=0
+}
+MemoryBitLabels {
+	nNumberOfLabels=20
+	Label1 {
+		nBit=100
+		sLabel="PLCIN0"
+		sDescription="Feed Left Have"
+	}
+	Label2 {
+		nBit=101
+		sLabel="PLCIN1"
+		sDescription="Feed Right Have"
+	}
+	Label3 {
+		nBit=102
+		sLabel="PLCIN2"
+		sDescription=""
+	}
+	Label4 {
+		nBit=103
+		sLabel="PLCIN3"
+		sDescription=""
+	}
+	Label5 {
+		nBit=104
+		sLabel="PLCIN4"
+		sDescription=""
+	}
+	Label6 {
+		nBit=105
+		sLabel="PLCIN5"
+		sDescription=""
+	}
+	Label7 {
+		nBit=106
+		sLabel="PLCIN6"
+		sDescription=""
+	}
+	Label8 {
+		nBit=107
+		sLabel="PLCIN7"
+		sDescription=""
+	}
+	Label9 {
+		nBit=108
+		sLabel="PLCIN8"
+		sDescription=""
+	}
+	Label10 {
+		nBit=109
+		sLabel="PLCIN9"
+		sDescription=""
+	}
+	Label11 {
+		nBit=110
+		sLabel="PLCOUT0"
+		sDescription="mo Suck Finish"
+	}
+	Label12 {
+		nBit=111
+		sLabel="PLCOUT1"
+		sDescription=""
+	}
+	Label13 {
+		nBit=112
+		sLabel="PLCOUT2"
+		sDescription=""
+	}
+	Label14 {
+		nBit=113
+		sLabel="PLCOUT3"
+		sDescription=""
+	}
+	Label15 {
+		nBit=114
+		sLabel="PLCOUT4"
+		sDescription=""
+	}
+	Label16 {
+		nBit=115
+		sLabel="PLCOUT5"
+		sDescription=""
+	}
+	Label17 {
+		nBit=116
+		sLabel="PLCOUT6"
+		sDescription=""
+	}
+	Label18 {
+		nBit=117
+		sLabel="PLCOUT7"
+		sDescription=""
+	}
+	Label19 {
+		nBit=118
+		sLabel="PLCOUT8"
+		sDescription=""
+	}
+	Label20 {
+		nBit=119
+		sLabel="PLCOUT9"
+		sDescription=""
+	}
+}
+MemoryByteLabels {
+	nNumberOfLabels=0
+}
+MemoryWordLabels {
+	nNumberOfLabels=0
+}
